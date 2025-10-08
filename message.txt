@@ -1,5 +1,1 @@
-feature-improvement
 CONFLIT MODIFIÉ
-
-Changement depuis main
-main
