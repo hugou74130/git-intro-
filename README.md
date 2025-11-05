@@ -66,8 +66,8 @@ This section provides a step-by-step guide to get your Git development environme
 Step 1: Install Git
 
 The first step is installing the Git version control system on your computer.
-Bash
 
+```
 # On Windows, download and run the installer from git-scm.com.
 # On macOS (using Homebrew):
 brew install git
@@ -75,44 +75,15 @@ brew install git
 # On Linux (Debian/Ubuntu):
 sudo apt update
 sudo apt install git
+```
 
-Step 2: Verify Git Installation
+And repeat
 
-Confirm that Git is installed correctly and accessible from your command line.
-Bash
+```
+until finished
+```
 
-# Check the installed version of Git
-git --version
-
-Step 3: Configure Your Git Identity
-
-Set your global user name and email. These credentials will be attached to every commit you make.
-Bash
-
-# Replace "Your Name" with your actual name
-git config --global user.name "Your Name"
-
-# Replace "your.email@example.com" with your actual email
-git config --global user.email "your.email@example.com"
-
-Step 4: Clone the Git Intro Repository
-
-Download a copy of this entire project repository onto your local machine.
-Bash
-
-# Navigate to the folder where you want to keep your projects
-cd ~/Projects
-
-# Clone the repository (Replace [REPOSITORY_URL] with the actual URL)
-git clone [REPOSITORY_URL]
-
-Step 5: Navigate into the Project Directory
-
-Change your current directory in the terminal to the newly cloned project folder.
-Bash
-
-# Change directory into the cloned project folder
-cd git-intro
+End with an example of getting some data out of the system or using it for a little demo.
 
 ## 🔧 Running the tests <a name = "tests"></a>
 
