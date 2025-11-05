@@ -77,13 +77,49 @@ sudo apt update
 sudo apt install git
 ```
 
-And repeat
+Step 2: Verify Git Installation
+
+Confirm that Git is installed correctly and accessible from your command line.
 
 ```
-until finished
+# Check the installed version of Git
+git --version
 ```
 
-End with an example of getting some data out of the system or using it for a little demo.
+Step 3: Configure Your Git Identity
+
+Set your global user name and email. These credentials will be attached to every commit you make.
+
+```
+# Replace "Your Name" with your actual name
+git config --global user.name "Your Name"
+
+# Replace "your.email@example.com" with your actual email
+git config --global user.email "your.email@example.com"
+```
+Step 4: Clone the Git Intro Repository
+
+Download a copy of this entire project repository onto your local machine.
+
+```
+# Navigate to the folder where you want to keep your projects
+cd ~/Projects
+
+# Clone the repository (Replace [REPOSITORY_URL] with the actual URL)
+git clone [REPOSITORY_URL]
+
+```
+
+Step 5: Navigate into the Project Directory
+
+Change your current directory in the terminal to the newly cloned project folder.
+
+```
+# Change directory into the cloned project folder
+cd git-intro
+```
+
+
 
 ## 🔧 Running the tests <a name = "tests"></a>
 
