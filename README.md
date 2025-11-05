@@ -186,9 +186,7 @@ git log
 
 ## ✍️ Authors <a name = "authors"></a>
 
-- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
-
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
+- [@hugou74130](https://github.com/hugou74130)
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
