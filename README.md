@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://image.noelshack.com/fichiers/2025/45/3/1762372610-gemini-generated-image-ls2w2fls2w2fls2w.png" alt="Project logo"></a>
+ <img width=400px height=200px src="https://image.noelshack.com/fichiers/2025/45/3/1762372610-gemini-generated-image-ls2w2fls2w2fls2w.png" alt="Project logo"></a>
 </p>
 
 <h3 align="center">Project Title</h3>
