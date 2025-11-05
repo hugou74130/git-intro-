@@ -121,18 +121,68 @@ cd git-intro
 
 ## 🎈 Usage <a name="usage"></a>
 
-Add notes about how to use the system.
+This repository is designed to be used interactively via your Command Line Interface (CLI). Follow the guided tutorials within the project to practice essential Git commands.
 
-## 🚀 Deployment <a name = "deployment"></a>
+### 1. Locate the Tutorials
 
-Add additional notes about how to deploy this on a live system.
+Start by reviewing the main instructions and tutorials provided in the repository.
+
+```
+# List the contents of the project
+ls
+# Expected output: README.md, TUTORIALS/, PRACTICE_FILES/
+```
+### 2. Configure Your Practice File
+
+Navigate to the directory dedicated to practice and open the designated file in your code editor.
+Bash
+```
+# Change into the practice files directory
+cd PRACTICE_FILES
+
+# Open the main practice file in your editor (e.g., using 'code' for VS Code)
+code practice-workspace.txt
+```
+
+### 3. Practice the Core Workflow
+
+Follow the guided steps in the TUTORIALS/ folder. For each step, you will modify a file, stage the change, and commit it.
+```
+Action	Command to Practice	Purpose
+Make a Change	(Use your code editor)	Modify practice-workspace.txt by adding a line of text.
+Stage the Change	git add practice-workspace.txt	Tell Git which changes to include in the next snapshot (commit).
+Commit the Change	git commit -m "Added my first line"	Record the staged changes as a permanent snapshot in the project history.
+```
+
+### 4. Practice Branching
+
+Once you are comfortable with commits, practice isolating your work on a new branch.
+Bash
+```
+# Create and switch to a new branch for feature work
+git checkout -b my-new-feature
+
+# Repeat the modify, add, and commit steps here...
+
+# Switch back to the main branch
+git checkout main
+```
+
+### 5. Review Your History
+
+Use the following command regularly to see how your changes and commits build the project's history.
+Bash
+```
+# View the commit history
+git log
+```
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
-- [NodeJs](https://nodejs.org/en/) - Server Environment
+- [Git](https://git-scm.com/) - The essential distributed version control system.
+- [Github](https://github.com/) - The platform used to host this repository and practice collaboration workflows.
+- [your Terminal/CLI]() - The main interface for executing all practice commands.
+- [VS Code (or your preferred editor)]() - The tool used for editing the exercise files.
 
 ## ✍️ Authors <a name = "authors"></a>
 
