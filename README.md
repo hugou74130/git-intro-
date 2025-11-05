@@ -1,83 +1,114 @@
 <p align="center">
-<!--
-Voici l'image que nous avons générée plus tôt.
-Vous pouvez la télécharger et la mettre dans votre dépôt,
-ou utiliser un lien Imgur comme dans l'original.
--->
-<a href="" rel="noopener">
-<img width="80%" src="https://i.imgur.com/6wj0hh6.jpg" alt="Logo du Projet"></a>
+  <a href="" rel="noopener">
+ <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
 </p>
 
-<h3 align="center">Introduction à Git</h3>
+<h3 align="center">Project Title</h3>
 
 <div align="center">
 
-<!-- J'ai mis à jour les badges pour pointer vers votre dépôt ! -->
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()
+[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 </div>
 
-<p align="center">
-Un projet d'introduction simple pour démontrer les concepts de base de Git,
+---
 
-
-
-
- y compris la création de branches, les commits et les reverts.
+<p align="center"> Few lines describing your project.
+    <br>
 </p>
 
-📝 Table des Matières
+## 📝 Table of Contents
 
-À Propos
+- [About](#about)
+- [Getting Started](#getting_started)
+- [Deployment](#deployment)
+- [Usage](#usage)
+- [Built Using](#built_using)
+- [TODO](../TODO.md)
+- [Contributing](../CONTRIBUTING.md)
+- [Authors](#authors)
+- [Acknowledgments](#acknowledgement)
 
-Explorer ce Projet
+## 🧐 About <a name = "about"></a>
 
-Construit Avec
+Write about 1-2 paragraphs describing the purpose of your project.
 
-Auteurs
+## 🏁 Getting Started <a name = "getting_started"></a>
 
-Remerciements
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
-🧐 À Propos <a name = "about"></a>
+### Prerequisites
 
-Ce dépôt sert de bac à sable (sandbox) pour s'entraîner aux commandes fondamentales de Git.
+What things you need to install the software and how to install them.
 
-Il a été utilisé pour démontrer comment :
+```
+Give examples
+```
 
-Créer de nouvelles branches (feature-greeting, feature-improvement)
+### Installing
 
-Ajouter des fichiers et faire des commits sur ces branches
+A step by step series of examples that tell you how to get a development env running.
 
-Fusionner (merge) des branches
+Say what the step will be
 
-Annuler (revert) des modifications
+```
+Give the example
+```
 
-🏁 Explorer ce Projet <a name = "getting_started"></a>
+And repeat
 
-Il n'y a rien à installer, car il s'agit d'un projet de démonstration. Vous pouvez explorer l'historique des commits et la structure des branches directement sur GitHub.
+```
+until finished
+```
 
-Si vous souhaitez le cloner localement pour voir l'historique dans votre propre terminal :
+End with an example of getting some data out of the system or using it for a little demo.
 
-git clone [https://github.com/hugou74130/git-intro-.git](https://github.com/hugou74130/git-intro-.git)
+## 🔧 Running the tests <a name = "tests"></a>
 
+Explain how to run the automated tests for this system.
 
-Ensuite, vous pouvez naviguer dans le dossier et lister l'historique :
+### Break down into end to end tests
 
-cd git-intro-
-git log --graph --oneline --all
+Explain what these tests test and why
 
+```
+Give an example
+```
 
-⛏️ Construit Avec <a name = "built_using"></a>
+### And coding style tests
 
-Ce projet utilise uniquement les outils de base :
+Explain what these tests test and why
 
-Git - Le système de contrôle de version
+```
+Give an example
+```
 
-Markdown - Pour la documentation (ce fichier !)
+## 🎈 Usage <a name="usage"></a>
 
-✍️ Auteurs <a name = "authors"></a>
+Add notes about how to use the system.
 
-@hugou74130 - Travail initial
+## 🚀 Deployment <a name = "deployment"></a>
 
-🎉 Remerciements <a name = "acknowledgement"></a>
+Add additional notes about how to deploy this on a live system.
 
-Inspiration pour tous les nouveaux apprenants de Git.
+## ⛏️ Built Using <a name = "built_using"></a>
+
+- [MongoDB](https://www.mongodb.com/) - Database
+- [Express](https://expressjs.com/) - Server Framework
+- [VueJs](https://vuejs.org/) - Web Framework
+- [NodeJs](https://nodejs.org/en/) - Server Environment
+
+## ✍️ Authors <a name = "authors"></a>
+
+- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
+
+See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
+
+## 🎉 Acknowledgements <a name = "acknowledgement"></a>
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- References
