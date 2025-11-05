@@ -45,7 +45,7 @@ The ultimate goal is to equip you with the practical knowledge necessary to coll
 
 To get started with this project and practice the Git commands, you primarily need two things installed on your system: Git and a Code Editor.
 
-1. Prerequisites
+### 1. Prerequisites
 
 Before starting, ensure you have the following installed:
 
@@ -55,7 +55,7 @@ Before starting, ensure you have the following installed:
 
     A Command Line Interface (CLI): You will be executing all Git commands through a terminal window (e.g., Terminal on Mac/Linux, Git Bash on Windows, or integrated terminal in your code editor).
 
-2. Installation Instructions
+### 2. Installation Instructions
 
 Follow the steps below to set up your environment:
 
@@ -63,7 +63,7 @@ Follow the steps below to set up your environment:
 
 This section provides a step-by-step guide to get your Git development environment running and ready for practice.
 
-Step 1: Install Git
+### Step 1: Install Git
 
 The first step is installing the Git version control system on your computer.
 
@@ -77,7 +77,7 @@ sudo apt update
 sudo apt install git
 ```
 
-Step 2: Verify Git Installation
+### Step 2: Verify Git Installation
 
 Confirm that Git is installed correctly and accessible from your command line.
 
@@ -86,7 +86,7 @@ Confirm that Git is installed correctly and accessible from your command line.
 git --version
 ```
 
-Step 3: Configure Your Git Identity
+### Step 3: Configure Your Git Identity
 
 Set your global user name and email. These credentials will be attached to every commit you make.
 
@@ -97,7 +97,7 @@ git config --global user.name "Your Name"
 # Replace "your.email@example.com" with your actual email
 git config --global user.email "your.email@example.com"
 ```
-Step 4: Clone the Git Intro Repository
+### Step 4: Clone the Git Intro Repository
 
 Download a copy of this entire project repository onto your local machine.
 
@@ -110,7 +110,7 @@ git clone [REPOSITORY_URL]
 
 ```
 
-Step 5: Navigate into the Project Directory
+### Step 5: Navigate into the Project Directory
 
 Change your current directory in the terminal to the newly cloned project folder.
 
