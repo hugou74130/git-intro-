@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/hugou74130/git-intro-" rel="noopener">
- <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
+ <img width=200px height=200px src="https://image.noelshack.com/fichiers/2025/45/5/1762530279-gemini-generated-image-idt9k1idt9k1idt9.png" alt="Project logo"></a>
 </p>
 
 <h3 align="center">git-intro - Git and GitHub Fundamentals</h3>
