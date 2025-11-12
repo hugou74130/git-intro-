@@ -10,14 +10,14 @@
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
 [![GitHub Issues](https://img.shields.io/github/issues/hugou74130/git-intro-.svg)](https://github.com/hugou74130/git-intro-/issues)
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/hugou74130/git-intro-.svg)](https://github.com/hugou74130/git-intro-/pulls)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
+
 
 </div>
 
 ---
 
 <p align="center"> Learn and practice fundamental Git commands and GitHub workflow to master version control.
-    <br> 
+    <br>
 </p>
 
 ## 📝 Table of Contents
